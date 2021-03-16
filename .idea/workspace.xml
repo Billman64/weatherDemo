@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/weatherDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Clouds.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Coord.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Rain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Weather.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Wind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/TemperatureConverter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pqp11sPKpiiIdRV2hdKO2nDN6f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="" />
+      <created>1615920255142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615920255142</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="200" y="171" key="#PSD" timestamp="1615929528788">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="200" y="171" key="#PSD/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929528788" />
+    <state x="186" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615929191595">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="186" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929191595" />
+    <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615923555642">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="513" y="233" key="FileChooserDialogImpl/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615923555642" />
+    <state x="233" y="136" key="SettingsEditor" timestamp="1615928352920">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615928352920" />
+    <state x="437" y="224" width="587" height="534" key="find.popup" timestamp="1615929512857">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="437" y="224" width="587" height="534" key="find.popup/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929512857" />
+  </component>
+</project>
