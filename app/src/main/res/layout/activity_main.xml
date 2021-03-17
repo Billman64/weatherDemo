@@ -14,9 +14,33 @@
         android:text="@string/current_temperature"/>
 
     <TextView
-        android:id="@+id/temperature"
+        android:id="@+id/temperatureC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="14 °C / 39 °F"/>
+
+    <TextView
+        android:id="@+id/temperatureF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="14 °C / 39 °F"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speed"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="14 °C / 39 °F"/>
+
+    <ImageView
+        android:id="@+id/weatherSymbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cloud_24"
+        android:visibility="invisible" />
 
 </LinearLayout>
