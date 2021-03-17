@@ -1,26 +1,30 @@
-package com.twitter.challenge
+package com.twitter.challenge.view
 
+import CurrentWeatherApi
+import kotlinx.coroutines.*
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
+import com.twitter.challenge.R
+import com.twitter.challenge.TemperatureConverter
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
 
     val currentTemp = "0"
     val currentWind = "0"
     val currentCloudiness = "0"
-    
-    @Override
-    protected fun onCreate(savedInstanceState: Bundle?) {
+
+    protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val temperatureView: TextView = findViewById(R.id.temperature) as TextView
-        temperatureView.setText(getString(R.string.temperature, 34f, TemperatureConverter.celsiusToFahrenheit(34)))
+        temperatureView.setText(getString(R.string.temperature, 34f, TemperatureConverter.celsiusToFahrenheit(34f)))
     }
 
-    @Override
-    onSaveInstanceState(outState:Bundle){
-        super.onSaveInstanceState(outstate)
+    override fun onSaveInstanceState(outState:Bundle){
+        super.onSaveInstanceState(outState)
 
         // orientation change - put downloaded weather data into bundle
         outState.putString("currentTemp", currentTemp)
@@ -30,16 +34,15 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    @Override
-    onRestoreInstanceState(savedInstanceState: Bundle){
+    override fun onRestoreInstanceState(savedInstanceState: Bundle){
         super.onRestoreInstanceState(savedInstanceState)
 
         // orientation change - restore downloaded weather data
         savedInstanceState?.let{
 
-            currentTemp = savedInstanceState.getString("currentTemp")
-            currentWind = savedInstanceState.getString("currentWind")
-            currentCloudiness = savedInstanceState.getString("currentCloudiness")
+            var currentTemp = savedInstanceState.getString("currentTemp")
+            var currentWind = savedInstanceState.getString("currentWind")
+            var currentCloudiness = savedInstanceState.getString("currentCloudiness")
 
 
         }

@@ -1,30 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/weatherDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Clouds.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Coord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Rain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Weather.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/Wind.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_24_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_24_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_4_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_3_native_mt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/weatherDemo.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weatherDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weatherDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/TemperatureConverter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/view/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2021-03-16-17-17-13-052.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2021-03-16-17-17-39-935.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2021-03-16-17-18-44-233.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2021-03-16-17-19-15-685.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2021-03-16-17-58-43-846.rawproto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[464e365732453498]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -39,6 +79,12 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Bill &lt;striderbillman@gmail.com&gt;" />
+        <option value="Bill Lugo" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pqp11sPKpiiIdRV2hdKO2nDN6f" />
@@ -51,15 +97,130 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/weatherDemo(gradle_fix)" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.twitter.challenge.view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="weatherDemo.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="weatherDemo [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="weatherDemo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.weatherDemo" />
+        <item itemvalue="Gradle.weatherDemo [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,28 +233,99 @@
       <option name="presentableId" value="Default" />
       <updated>1615920255142</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1615933360678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933360678</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1615933442001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933442001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="171" key="#PSD" timestamp="1615929528788">
+    <state x="165" y="385" key="#PSD" timestamp="1616008760613">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="200" y="171" key="#PSD/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929528788" />
+    <state x="165" y="385" key="#PSD/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616008760613" />
+    <state x="298" y="112" key="#Plugins" timestamp="1616007357256">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="298" y="112" key="#Plugins/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616007357256" />
+    <state x="201" y="35" key="#Project_Structure" timestamp="1615995485819">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="201" y="35" key="#Project_Structure/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615995485819" />
     <state x="186" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615929191595">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="186" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929191595" />
-    <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615923555642">
+    <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615996998698">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="513" y="233" key="FileChooserDialogImpl/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615923555642" />
-    <state x="233" y="136" key="SettingsEditor" timestamp="1615928352920">
+    <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615996998698" />
+    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1615996943384">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615928352920" />
+    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615996943384" />
+    <state x="337" y="30" key="CommitChangelistDialog2" timestamp="1615933441009">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="337" y="30" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615933441009" />
+    <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615999870905">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="513" y="233" key="FileChooserDialogImpl/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615999870905" />
+    <state x="590" y="359" key="Github.ShareDialog" timestamp="1615933511226">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="590" y="359" key="Github.ShareDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615933511226" />
+    <state width="1234" height="214" key="GridCell.Tab.0.bottom" timestamp="1616005376149">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1234" height="214" key="GridCell.Tab.0.bottom/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
+    <state width="1234" height="214" key="GridCell.Tab.0.center" timestamp="1616005376149">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1234" height="214" key="GridCell.Tab.0.center/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
+    <state width="1234" height="214" key="GridCell.Tab.0.left" timestamp="1616005376148">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1234" height="214" key="GridCell.Tab.0.left/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376148" />
+    <state width="1234" height="214" key="GridCell.Tab.0.right" timestamp="1616005376149">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1234" height="214" key="GridCell.Tab.0.right/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
+    <state x="233" y="136" key="SettingsEditor" timestamp="1616007288096">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616007288096" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1615933480185">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615933480185" />
+    <state x="530" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615997678759">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="530" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615997678759" />
     <state x="437" y="224" width="587" height="534" key="find.popup" timestamp="1615929512857">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="437" y="224" width="587" height="534" key="find.popup/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615929512857" />
+    <state x="236" y="383" key="psd.add.library.dependency.panel.dimension" timestamp="1616008430237">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="236" y="383" key="psd.add.library.dependency.panel.dimension/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616008430237" />
   </component>
 </project>

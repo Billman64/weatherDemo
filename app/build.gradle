@@ -1,12 +1,16 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 29
+    buildToolsVersion "24.0.3"
     defaultConfig {
         applicationId "com.twitter.challenge"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -17,13 +21,27 @@ android {
         }
     }
     compileOptions {
-        targetCompatibility JavaVersion.VERSION_1_8
-        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility "1.8"
+        sourceCompatibility "1.8"
     }
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.assertj:assertj-core:2.5.0'
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.assertj:assertj-core:3.19.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.31"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3-native-mt'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
+
+
+    // Retrofit, Gson
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+}
+repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    mavenCentral()
 }
