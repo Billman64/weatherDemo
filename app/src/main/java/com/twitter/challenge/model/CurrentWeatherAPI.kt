@@ -6,7 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 
 interface CurrentWeatherAPI {
-//    @Headers(value = [""])
     @GET("current.json")
     fun getCurrentWeather(): retrofit2.Call<JsonObject>
 }

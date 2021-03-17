@@ -20,17 +20,19 @@ class MainActivity : AppCompatActivity() {
 
     val TAG = this.javaClass.simpleName + "-demo---"
 
-    val currentTemp = "0"
-    val currentWind = "0"
-    val currentCloudiness = "0"
+    var currentTemp = "0"
+    var currentWind = "0"
+    var currentCloudiness = "0"
 
     protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val temperatureView: TextView = findViewById(R.id.temperatureC) as TextView
-        temperatureView.setText(getString(R.string.temperature, 34f, TemperatureConverter.celsiusToFahrenheit(34f)))
 
-        getWeatherData()
+
+        if(savedInstanceState==null) getWeatherData()
+
+        //        val temperatureView: TextView = findViewById(R.id.temperatureC) as TextView   // default from starter code
+        //        temperatureView.setText(getString(R.string.temperature, 34f, TemperatureConverter.celsiusToFahrenheit(34f)))
     }
 
     override fun onSaveInstanceState(outState:Bundle){
@@ -40,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         outState.putString("currentTemp", currentTemp)
         outState.putString("currentWind", currentWind)
         outState.putString("currentCloudiness", currentCloudiness)
+        Log.d(TAG, "onSaveInstanceState() -  temp: ${outState.get("currentTemp")} wind: ${outState.get("currentWind")} cloudiness: ${outState.get("currentCloudiness")}")
 
 
     }
@@ -48,14 +51,23 @@ class MainActivity : AppCompatActivity() {
         super.onRestoreInstanceState(savedInstanceState)
 
         // orientation change - restore downloaded weather data
-        savedInstanceState?.let{
 
-            var currentTemp = savedInstanceState.getString("currentTemp")
-            var currentWind = savedInstanceState.getString("currentWind")
-            var currentCloudiness = savedInstanceState.getString("currentCloudiness")
+        currentTemp = savedInstanceState.getString("currentTemp")!!
+        currentWind = savedInstanceState.getString("currentWind")!!
+        currentCloudiness = savedInstanceState.getString("currentCloudiness")!!
 
+        Log.d(TAG, "onRestoreInstanceState() - temp: ${savedInstanceState.get("currentTemp")} wind: ${savedInstanceState.get("currentWind")} cloudiness: ${savedInstanceState.get("currentCloudiness")}")
 
+        // update UI
+        currentTemp.let{
+            temperatureC.text = currentTemp + " C"
+            temperatureF.text = celsiusToFahrenheit(currentTemp!!.toFloat()).toString() + " F"
         }
+        currentWind.let{ speed.text = currentWind }
+        currentCloudiness.let{
+            Log.d(TAG, " cloudiness: ${currentCloudiness}")
+            if(currentCloudiness!!.toFloat()>50f) weatherSymbol.visibility = View.VISIBLE }
+
 
     }
 
@@ -85,24 +97,24 @@ class MainActivity : AppCompatActivity() {
 
                 // parse data
                 val tempJson = data.asJsonObject.getAsJsonObject("weather")
-                val temp = tempJson.getAsJsonPrimitive("temp").toString()
+                currentTemp = tempJson.getAsJsonPrimitive("temp").toString()
 
                 val windJson = data.getAsJsonObject("wind")
-                val wind = windJson.getAsJsonPrimitive("speed").toString()
+                currentWind = windJson.getAsJsonPrimitive("speed").toString()
 
                 val cloudsJson = data.getAsJsonObject("clouds")
-                val cloudiness = cloudsJson.getAsJsonPrimitive("cloudiness").toString()
+                currentCloudiness = cloudsJson.getAsJsonPrimitive("cloudiness").toString()
 
 
                 // update UI
                 withContext(Dispatchers.Main){
 
-                    temperatureC.text = temp + " C"
-                    temperatureF.text = celsiusToFahrenheit(temp.toFloat()).toString() + " F"
+                    temperatureC.text = currentTemp + " C"
+                    temperatureF.text = celsiusToFahrenheit(currentTemp.toFloat()).toString() + " F"
 
-                    speed.text = wind
+                    speed.text = currentWind
 
-                    if(cloudiness.toFloat()>50f) weatherSymbol.visibility = View.VISIBLE
+                    if(currentCloudiness.toFloat()>50f) weatherSymbol.visibility = View.VISIBLE
                 }
 
             } catch (e:java.lang.Exception){
@@ -112,6 +124,5 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
-
 
 }

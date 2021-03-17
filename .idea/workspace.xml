@@ -12,12 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_cloud_24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherAPI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/view/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,14 +229,22 @@
       <option name="project" value="LOCAL" />
       <updated>1616011947868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Current weather data now received and displayed.">
+      <created>1616013473810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616013473810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Compiles with adjusted dependencies in build.gradle (app)." />
     <MESSAGE value="Network call working. Temperature received." />
-    <option name="LAST_COMMIT_MESSAGE" value="Network call working. Temperature received." />
+    <MESSAGE value="Current weather data now received and displayed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Current weather data now received and displayed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="165" y="385" key="#PSD" timestamp="1616008760613">
@@ -270,10 +275,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616012952620" />
-    <state x="250" y="90" key="CommitChangelistDialog2" timestamp="1616011946690">
+    <state x="250" y="90" key="CommitChangelistDialog2" timestamp="1616013472414">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="250" y="90" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616011946690" />
+    <state x="250" y="90" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616013472414" />
     <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615999870905">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -302,10 +307,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616007288096" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616011955064">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616013478710">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616011955064" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616013478710" />
     <state x="530" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615997678759">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
