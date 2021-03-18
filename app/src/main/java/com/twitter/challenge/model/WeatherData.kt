@@ -1,4 +1,4 @@
-data class CurrentWeather(
+data class WeatherData(
     val clouds: Clouds,
     val coord: Coord,
     val name: String,

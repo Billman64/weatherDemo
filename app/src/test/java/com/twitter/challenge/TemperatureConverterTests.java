@@ -1,5 +1,7 @@
 package com.twitter.challenge;
 
+import com.twitter.challenge.utilities.TemperatureConverter;
+
 import org.assertj.core.data.Offset;
 import org.junit.Test;
 
@@ -16,12 +18,14 @@ public class TemperatureConverterTests {
     public void testCelsiusToFahrenheitConversion() {
         final Offset<Float> precision = within(0.01f);
 
-        assertThat(TemperatureConverter.celsiusToFahrenheit(-50)).isEqualTo(-58, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(0)).isEqualTo(32, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(10)).isEqualTo(50, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(21.11f)).isEqualTo(70, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(37.78f)).isEqualTo(100, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(100)).isEqualTo(212, precision);
-        assertThat(TemperatureConverter.celsiusToFahrenheit(1000)).isEqualTo(1832, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(-50)).isEqualTo(-58, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(0)).isEqualTo(32, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(10)).isEqualTo(50, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(21.11f)).isEqualTo(70, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(37.78f)).isEqualTo(100, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(100)).isEqualTo(212, precision);
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(1000)).isEqualTo(1832, precision);
+
+        assertThat(TemperatureConverter.INSTANCE.celsiusToFahrenheit(0f)).isEqualTo(32,precision);
     }
 }

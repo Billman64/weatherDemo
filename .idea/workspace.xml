@@ -11,10 +11,18 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="">
+    <list default="true" id="46d11eaf-a0f9-4d5f-9390-6dfb27fd627e" name="Default Changelist" comment="Average for calculating average of an ArrayList&lt;Float&gt; created.&#10;&#10;Unit tests for it created.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/FutureWeatherAPI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/utilities/Average.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/twitter/challenge/AverageForArrayListsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/weatherDemo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/weatherDemo.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeatherAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/TemperatureConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/utilities/TemperatureConverter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/CurrentWeather.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/model/WeatherData.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/twitter/challenge/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/twitter/challenge/TemperatureConverterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/twitter/challenge/TemperatureConverterTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,10 +88,51 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.twitter.challenge.utilities" />
       <recent name="com.twitter.challenge.view" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.twitter.challenge.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twitter.challenge" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
+    <configuration name="AverageForArrayListsTest.testAverage" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weatherDemo.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.challenge" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.challenge.AverageForArrayListsTest" />
+      <option name="METHOD_NAME" value="testAverage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTests.testCelsiusToFahrenheitConversion" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weatherDemo.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.challenge" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.challenge.TemperatureConverterTests" />
+      <option name="METHOD_NAME" value="testCelsiusToFahrenheitConversion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -185,6 +235,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.TemperatureConverterTests.testCelsiusToFahrenheitConversion" />
+        <item itemvalue="Android JUnit.AverageForArrayListsTest.testAverage" />
         <item itemvalue="Gradle.weatherDemo" />
         <item itemvalue="Gradle.weatherDemo [clean]" />
       </list>
@@ -236,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616013473810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Current weather preserved on orientation change.">
+      <created>1616016149739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616016149739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +303,9 @@
     <MESSAGE value="Compiles with adjusted dependencies in build.gradle (app)." />
     <MESSAGE value="Network call working. Temperature received." />
     <MESSAGE value="Current weather data now received and displayed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Current weather data now received and displayed." />
+    <MESSAGE value="Current weather preserved on orientation change." />
+    <MESSAGE value="Average for calculating average of an ArrayList&lt;Float&gt; created.&#10;&#10;Unit tests for it created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Average for calculating average of an ArrayList&lt;Float&gt; created.&#10;&#10;Unit tests for it created." />
   </component>
   <component name="WindowStateProjectService">
     <state x="165" y="385" key="#PSD" timestamp="1616008760613">
@@ -267,18 +328,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="451" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615996998698" />
-    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1615996943384">
+    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1616026412367">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615996943384" />
-    <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog" timestamp="1616012952620">
+    <state x="500" y="227" width="440" height="449" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616026412367" />
+    <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog" timestamp="1616026384950">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616012952620" />
-    <state x="250" y="90" key="CommitChangelistDialog2" timestamp="1616013472414">
+    <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616026384950" />
+    <state x="250" y="90" key="CommitChangelistDialog2" timestamp="1616030386395">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="250" y="90" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616013472414" />
+    <state x="250" y="90" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030386395" />
     <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615999870905">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -287,30 +348,34 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="590" y="359" key="Github.ShareDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1615933511226" />
-    <state width="1234" height="214" key="GridCell.Tab.0.bottom" timestamp="1616005376149">
+    <state width="1399" height="240" key="GridCell.Tab.0.bottom" timestamp="1616030676148">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1234" height="214" key="GridCell.Tab.0.bottom/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
-    <state width="1234" height="214" key="GridCell.Tab.0.center" timestamp="1616005376149">
+    <state width="1399" height="240" key="GridCell.Tab.0.bottom/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030676148" />
+    <state width="1399" height="240" key="GridCell.Tab.0.center" timestamp="1616030676148">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1234" height="214" key="GridCell.Tab.0.center/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
-    <state width="1234" height="214" key="GridCell.Tab.0.left" timestamp="1616005376148">
+    <state width="1399" height="240" key="GridCell.Tab.0.center/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030676148" />
+    <state width="1399" height="240" key="GridCell.Tab.0.left" timestamp="1616030676147">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1234" height="214" key="GridCell.Tab.0.left/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376148" />
-    <state width="1234" height="214" key="GridCell.Tab.0.right" timestamp="1616005376149">
+    <state width="1399" height="240" key="GridCell.Tab.0.left/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030676147" />
+    <state width="1399" height="240" key="GridCell.Tab.0.right" timestamp="1616030676148">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1234" height="214" key="GridCell.Tab.0.right/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616005376149" />
+    <state width="1399" height="240" key="GridCell.Tab.0.right/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030676148" />
     <state x="233" y="136" key="SettingsEditor" timestamp="1616007288096">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616007288096" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616013478710">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616016154050">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616013478710" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616016154050" />
+    <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616030051227">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616030051227" />
     <state x="530" y="375" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615997678759">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -323,5 +388,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="236" y="383" key="psd.add.library.dependency.panel.dimension/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616008430237" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1616017417102">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616017417102" />
   </component>
 </project>

@@ -41,6 +41,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_cloud_24"
+        android:contentDescription="cloud"
         android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_get_next_5_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next_5"/>
+    <TextView
+        android:id="@+id/stdDevNext5Days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

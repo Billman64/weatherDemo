@@ -3,4 +3,5 @@
     <string name="current_temperature">Current temperature</string>
     <string name="temperature">%1$f °C / %2$f °F</string>
     <string name="speed">Speed</string>
+    <string name="button_next_5">Get std. dev. temp. for next 5 days</string>
 </resources>
