@@ -49,8 +49,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Bill Lugo" />
         <option value="Bill &lt;striderbillman@gmail.com&gt;" />
+        <option value="Bill Lugo" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616030853906</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Standard deviation now preserved on orientation change.">
+      <created>1616031475315</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616031475315</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -336,10 +343,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="301" y="216" key="AndroidCreateResourceDirectoryDialog/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616026384950" />
-    <state x="250" y="36" key="CommitChangelistDialog2" timestamp="1616031414623">
+    <state x="250" y="36" key="CommitChangelistDialog2" timestamp="1616031474232">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="250" y="36" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616031414623" />
+    <state x="250" y="36" key="CommitChangelistDialog2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616031474232" />
     <state x="513" y="233" key="FileChooserDialogImpl" timestamp="1615999870905">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -368,10 +375,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="233" y="136" key="SettingsEditor/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616007288096" />
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616031450355">
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1616031481502">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616031450355" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920/232.-1200.1920.1160@0.0.1440.920" timestamp="1616031481502" />
     <state x="93" y="93" width="1255" height="735" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1616030051227">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

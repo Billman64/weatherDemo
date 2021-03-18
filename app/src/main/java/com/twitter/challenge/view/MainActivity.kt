@@ -16,6 +16,7 @@ import retrofit2.awaitResponse
 import retrofit2.converter.gson.GsonConverterFactory
 import java.lang.Exception
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 class MainActivity : AppCompatActivity() {
 
@@ -156,25 +157,29 @@ class MainActivity : AppCompatActivity() {
             val fileNameAppend = ".json"
             var stdDev = 0f
             var avg = 0f
-            var tempOfDay: Float
+            var tempOfDay = 0f
             val dayArray:ArrayList<Float> = arrayListOf()
 
             try {
 
-                // loop through each day
+                // Get data - loop through each day
                 for(day in 1..numDays) {
                     val responseDay = currentWeatherApi.getFutureWeather(fileNamePrepend + day + fileNameAppend).awaitResponse()
-                    Log.d(TAG, " response received. code: ${responseDay.code()} message: ${responseDay.message()}")
+                    Log.v(TAG, " response received. code: ${responseDay.code()} message: ${responseDay.message()}")
                     tempOfDay = responseDay.body()!!.weather.temp.toFloat()
                     dayArray.add(tempOfDay)
-                    avg = Average.avg(dayArray)
-                    stdDev += (tempOfDay - avg).pow(2)
                     Log.d(TAG, "tempOfDay: $tempOfDay")
                 }
-                Log.d(TAG, "avg: $avg")
 
                 // calculate standard deviation for next n days
+                avg = Average.avg(dayArray)
+                Log.v(TAG, "avg: $avg")
+
+                for(day in 0..numDays-1){
+                    stdDev += (dayArray.get(day) - avg).pow(2)
+                }
                 stdDev /= (numDays - 1)
+                stdDev = sqrt(stdDev)
                 Log.d(TAG, "stdDev: $stdDev")
 
 
@@ -182,19 +187,9 @@ class MainActivity : AppCompatActivity() {
                 withContext(Dispatchers.Main){
                     stdDevNext5Days.text = stdDev.toString()
                 }
-
-
             } catch(e:Exception){
                 Log.e(TAG, " network error: ${e.message}")
             }
-
-
         }
-
-
-
-
-
     }
-
 }
