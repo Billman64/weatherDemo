@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         outState.putString("currentTemp", currentTemp)
         outState.putString("currentWind", currentWind)
         outState.putString("currentCloudiness", currentCloudiness)
+        outState.putString("standardDeviation", stdDevNext5Days.text.toString())
         Log.d(TAG, "onSaveInstanceState() -  temp: ${outState.get("currentTemp")} wind: ${outState.get("currentWind")} cloudiness: ${outState.get("currentCloudiness")}")
 
 
@@ -61,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         currentTemp = savedInstanceState.getString("currentTemp")!!
         currentWind = savedInstanceState.getString("currentWind")!!
         currentCloudiness = savedInstanceState.getString("currentCloudiness")!!
+        val stdDev = savedInstanceState.getString("standardDeviation")
 
         Log.d(TAG, "onRestoreInstanceState() - temp: ${savedInstanceState.get("currentTemp")} wind: ${savedInstanceState.get("currentWind")} cloudiness: ${savedInstanceState.get("currentCloudiness")}")
 
@@ -73,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         currentCloudiness.let{
             Log.d(TAG, " cloudiness: ${currentCloudiness}")
             if(currentCloudiness.toFloat()>50f) weatherSymbol.visibility = View.VISIBLE }
-
+        stdDev.let{ stdDevNext5Days.text = stdDev}
 
     }
 
